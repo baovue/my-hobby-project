@@ -1,0 +1,186 @@
+/** Add css rules here for your application. */
+
+@external "gwt-*";
+
+/** Example rules used by the template application (remove for your app) */
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.3rem;
+    padding-bottom: 3rem;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+@media (max-width: 840px) {
+    .container {
+        width: 100%;
+        padding: 0 10px;
+    }
+}
+
+header {
+    background-color: #12597c;
+
+    padding: 30px 0 5px;
+    margin-bottom: -1rem;
+}
+
+header h1 {
+    font-size: 2em;
+    font-weight: 500;
+    color: #fff;
+}
+
+header ul {
+    padding: 0;
+
+    list-style-type: none;
+}
+
+header li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+header a:link,
+header a:visited {
+    color: #ddd;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: #fff;
+}
+
+nav {
+    text-align: right;
+}
+
+nav > ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+nav > ul > li {
+    display: inline-block;
+    margin-left: 1rem;
+}
+
+nav > ul > li > a:link,
+nav > ul > li > a:visited {
+    background-color: #12597c; /*#333;*/
+    color: #fff;
+    text-decoration: none;
+
+    padding: 1rem 2rem;
+    /*border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px; */
+
+    position: relative;
+}
+
+nav > ul > li > a:hover {
+    /*top: 4px;*/
+    color: yellow;
+}
+
+h2 {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
+
+.box {
+    background-color: #eee;
+    padding: 15px;
+    border: 1px solid #bbb;
+    margin-bottom: 1rem;
+    box-sizing: border-box;
+    width: 50%;
+    float: left;
+}
+
+p {
+    margin-bottom: .8rem;
+}
+
+button {
+    /*background: #333;*/
+    color: #333;
+    border: 0;
+    padding: 7px 6px 6px;
+}
+
+button:hover {
+    background: #333;
+    color: #FFF;
+}
+
+input {
+    padding: 5px;
+}
+
+.label_error {
+    color: red;
+}
+
+.label_error p {
+    margin-top: .8rem;
+    margin-bottom: 0;
+}
+
+.links {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-style: italic;
+    text-decoration: none;
+}
+
+.content {
+	width:90%; 
+	margin: 10px auto; 
+	line-height:130%;
+}
+		
+.leftcontent {
+	float:left; 
+	width:45%; 
+	margin:0; 
+	padding:5px 25px 5px 5px;
+}
+		
+.rightcontent {
+	float: left; 
+	width:45%; 
+	border-left: 1px solid gray; 
+	padding:5px 5px 5px 25px;
+}
+
+.centeredcontent {
+	position: absolute;
+    top: 40%;
+    left: 25%;
+    width: 50%;
+}
+		
+.imagecontainer {
+    width: 200px;
+    height: 150px;
+    float: left;
+    margin-right: 10px;
+}
+
+/* resize images */
+.imagecontainer img {
+    width: 100%;
+    height: auto;
+    align: top;
+}
+
+

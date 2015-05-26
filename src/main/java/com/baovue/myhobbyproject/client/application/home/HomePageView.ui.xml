@@ -1,0 +1,46 @@
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+	xmlns:g='urn:import:com.google.gwt.user.client.ui' xmlns:myui='urn:import:com.baovue.myhobbyproject.client.application.ui'
+	xmlns:s='urn:import:com.baovue.myhobbyproject.client.application.soccer'>
+
+	<ui:with field="res" type="com.baovue.myhobbyproject.client.resources.AppResources"/>
+	<ui:with field="nameTokens" type="com.baovue.myhobbyproject.client.place.NameTokens"></ui:with>
+	
+	<g:HTMLPanel>
+		<myui:Header></myui:Header>
+		
+		<div class="{res.style.container}">
+		
+			<div class="{res.style.leftcontent}">
+				<div class="{res.style.imagecontainer}">
+					<g:Image resource="{res.soccerImage}" altText="soccerImage"/>
+				</div>
+				<a class="{res.style.links}" href='#{nameTokens.getSoccerPage}'>Soccer</a>
+				<p>The Elite Clubs National League (ECNL), the nation’s premier female youth soccer league, 
+				has kicked off the Amazing Young Women™ campaign and its rally cry #BeautifulAmbition. 
+				The campaign is a dynamic platform of online and local market activations that showcase and 
+				celebrate female role models offering an aspirational focus for all female athletes and teens 
+				as they prepare to be our next generation of leaders. The Amazing Young Women campaign is 
+				calling on women of all ages to share their personal moments of #BeautifulAmbition and help 
+				drive a movement that celebrates the power of what it is to be an elite female athlete today.</p>				
+			</div>
+			
+			<div class="{res.style.rightcontent}">
+				<div class="{res.style.imagecontainer}">
+					<g:Image resource="{res.cookingImage}" altText="cookingImage"/>
+				</div>
+				<a class="{res.style.links}" href='#{nameTokens.getCookingPage}'>Cooking</a>
+				<p>Cooking is one of the oldest of human activities. When human evolution was at the hunter-gatherer 
+				stage, cooking was very simple -- kill something, throw it on the fire along with whatever vegetables 
+				and fruits were found that day, and eat. Spices and cooking equipment were rather simple at that time 
+				and there probably was not much variety in the average diet back then. Since those very early beginnings, 
+				cooking has become almost an art form but still remains a fundamental part of our everyday lives. Although 
+				many Asian cultures share the tradition of gathering the family or clan together to socialize or celebrate 
+				over a big meal, the various cultures of Asia each developed their own ethnic cuisine through the 
+				interaction of history, environment, and culture.</p>
+	
+			</div>
+		
+		</div>
+				
+	</g:HTMLPanel>
+</ui:UiBinder>

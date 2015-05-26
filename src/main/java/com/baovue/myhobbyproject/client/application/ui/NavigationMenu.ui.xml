@@ -1,0 +1,20 @@
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+	xmlns:g='urn:import:com.google.gwt.user.client.ui'>
+
+	<ui:with type="com.baovue.myhobbyproject.client.place.NameTokens" field="nameTokens"></ui:with>
+
+	<g:HTMLPanel tag="nav">
+		<ul>
+			<li>
+				<a href='#{nameTokens.getHome}'>Home</a>
+			</li>
+			<li>
+				<a href='#{nameTokens.getSoccerPage}'>Soccer</a>
+			</li>
+			<li>
+				<a href='#{nameTokens.getCookingPage}'>Cooking</a>
+			</li>
+		</ul>
+	</g:HTMLPanel>
+
+</ui:UiBinder>
